@@ -1,5 +1,5 @@
 {
-  "name": "prettier-config",
+  "name": "@posop/prettier-config",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^3.4.0",
     "prettier": "^2.7.1",
