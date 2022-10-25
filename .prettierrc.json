@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "tabWidth": 2,
+  "printWidth": 100,
+  "semi": false,
+  "useTabs": false,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "singleAttributePerLine": true,
+  "arrowParens": "always",
+  "trailingComma": "none",
+  "quoteProps": "as-needed",
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ".*rc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ],
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-multiline-arrays"
+  ],
+  "importOrder": [
+    "^react",
+    "^(next/(.*)$)|^(next$)",
+    "<THIRD_PARTY_TYPES>",
+    "^[~]",
+    "^[~/]",
+    "^[@/]",
+    "^[./]"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "multilineArraysWrapThreshold": 2,
+  "importOrderParserPlugins": [
+    "typescript",
+    "jsx",
+    "classProperties",
+    "decorators-legacy"
+  ]
+}
