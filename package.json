@@ -1,6 +1,6 @@
 {
   "name": "@posop/prettier-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "prettier-config",
   "main": "./.prettierrc.json",
   "prettier": "./.prettierrc.json",

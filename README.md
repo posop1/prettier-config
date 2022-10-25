@@ -1,4 +1,4 @@
-# `@posop/prettier-confin`
+# `@posop/prettier-config`
 
 > My personal [Prettier](https://prettier.io) configurations.
 ## Install
