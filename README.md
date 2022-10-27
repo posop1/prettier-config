@@ -22,7 +22,7 @@ pnpm add @posop/prettier-config -D
 ```js
 // .prettierrc.js
 module.exports = {
-  ...require('@cposop/prettier-config'),
+  ...require('@posop/prettier-config'),
 }
 ```
 
