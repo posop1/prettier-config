@@ -51,6 +51,23 @@ Some commonly used scripts in `package.json`.
 }
 ```
 
+### Rules
+Rules used
+```json
+  "tabWidth": 2,
+  "printWidth": 100,
+  "semi": false,
+  "useTabs": false,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "singleAttributePerLine": true,
+  "arrowParens": "always",
+  "trailingComma": "none",
+  "quoteProps": "as-needed",
+  "endOfLine": "lf",
+```
+
 ## Related
 
 - [Prettier](https://github.com/prettier/prettier) - an opinionated code formatter.
